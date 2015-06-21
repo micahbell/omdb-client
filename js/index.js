@@ -2,9 +2,9 @@ var h1 = document.createElement('h1');
 h1.innerHTML = "OMDB Movies About Pizza";
 document.body.appendChild(h1);
 
-var searchResults = document.getElementById('search');
-var submit = document.getElementsByName('submitButton');
-console.log(searchResults);
+// var searchResults = document.getElementById('search');
+// var submit = document.getElementsByName('submitButton');
+// console.log(searchResults);
 
 
 var xhr = new XMLHttpRequest();
